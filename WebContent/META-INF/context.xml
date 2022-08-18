@@ -1,0 +1,17 @@
+/<?xml version="1.0" encoding="UTF-8"?>
+
+<context>
+
+			<Resource name="jdbc/student_db_tracker"
+							 auth="Container"
+							 type="javax.sql.DataSource"
+							 maxActive="20"
+							 maxIdle="5"
+							 maxWait="10000"
+							 username="root"
+							 password=""
+							 driverClassName="com.mysql.cj.jdbc.Driver"
+							 url="jdbc:mysql://localhost:3306/student_db_tracker"
+			/>
+
+</context>
